@@ -21,6 +21,7 @@ call vundle#begin()
  Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
  Plugin 'EasyMotion' "Awesome plugin for moving around, type <leader><leader>w or <leader><leader>wetTfFbB
  Plugin 'commentary.vim' " gcc or visual+gc
+ Plugin 'Auto-Pairs'
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
@@ -141,4 +142,6 @@ noremap <leader>a =ip
 nnoremap Q @q
 vnoremap Q :norm @q<cr>
 ""---------------------------------------
+
+
 
