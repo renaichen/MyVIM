@@ -22,6 +22,7 @@ call vundle#begin()
  Plugin 'EasyMotion' "Awesome plugin for moving around, type <leader><leader>w or <leader><leader>wetTfFbB
  Plugin 'commentary.vim' " gcc or visual+gc
  Plugin 'Auto-Pairs'
+ Plugin 'surround.vim' "This is a good plugin for chaning surroundings, like }, ', (, etc.
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
@@ -46,6 +47,7 @@ au BufNewFile,BufRead *.py
 ""------------------------------------
 
  set number
+ set relativenumber
 
 "  " tabs and length settings for general files
 "  "
